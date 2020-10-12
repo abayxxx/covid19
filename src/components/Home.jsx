@@ -7,8 +7,8 @@ import "../assets/css/stylesheet.css";
 
 export default function Home() {
   return (
-    <Container className="text-center mt-5">
-      <p className="text-header">COVID 19 TRACKER</p>
+    <Container className="container text-center mt-5">
+      <p className="text-header">COVID 19 TRACKER APP</p>
       <p className="text-second">Coronavirus Global & Indonesia Live Data</p>
       <Card />
 

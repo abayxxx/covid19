@@ -11,7 +11,7 @@ export default function CardInfo() {
   const [indonesia, setIndo] = useState([]);
 
   useEffect(() => {
-    async function get() {
+    const get = async () => {
       try {
         let [sembuh, meninggal, positif, indonesia] = await Promise.all([
           fetch(
@@ -28,7 +28,7 @@ export default function CardInfo() {
           ).then((res) => res.json()),
         ]);
 
-        setData([...data, sembuh, meninggal, positif]);
+        setData([sembuh, meninggal, positif]);
         setIndo(indonesia);
       } catch (err) {
         console.log(err);
