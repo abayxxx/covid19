@@ -8,7 +8,7 @@ export default function Chart() {
 
   useEffect(() => {
     try {
-      fetch("http://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/")
+      fetch("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/")
         .then((res) => res.json())
         .then((res) => setData(res));
     } catch (error) {}

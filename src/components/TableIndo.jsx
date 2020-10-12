@@ -9,7 +9,7 @@ export default function Chart() {
   useEffect(() => {
     try {
       fetch(
-        "http://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/indonesia/provinsi/"
+        "https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/indonesia/provinsi/"
       )
         .then((res) => res.json())
         .then((res) => setData(res));

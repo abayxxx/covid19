@@ -19,8 +19,8 @@ export default function Footer() {
         <a style={{ textDecoration: "none" }} href="https://kawalcorona.com/">
           Kawal Corona
         </a>
-        . Made with <img style={{ width: 20, height: 20 }} src={love} /> by
-        Luffy
+        . Made with <img alt="" style={{ width: 20, height: 20 }} src={love} />{" "}
+        by Luffy
       </p>
     </div>
   );

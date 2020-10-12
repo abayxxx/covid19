@@ -15,16 +15,16 @@ export default function CardInfo() {
       try {
         let [sembuh, meninggal, positif, indonesia] = await Promise.all([
           fetch(
-            "http://cors-anywhere.herokuapp.com/http://api.kawalcorona.com/sembuh/"
+            "https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/sembuh/"
           ).then((res) => res.json()),
           fetch(
-            "http://cors-anywhere.herokuapp.com/http://api.kawalcorona.com/positif/"
+            "https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/positif/"
           ).then((res) => res.json()),
           fetch(
-            "http://cors-anywhere.herokuapp.com/http://api.kawalcorona.com/meninggal/"
+            "https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/meninggal/"
           ).then((res) => res.json()),
           fetch(
-            "http://cors-anywhere.herokuapp.com/http://api.kawalcorona.com/indonesia/"
+            "https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/indonesia/"
           ).then((res) => res.json()),
         ]);
 
