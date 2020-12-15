@@ -1,3 +1,3 @@
 # Covid Tracker With React
 
-This is web app built with React Js and kawalcorona API
+This is web app build with React Js and kawalcorona API
